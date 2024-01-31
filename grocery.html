@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VKS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-
-    <title>pulses</title>
 </head>
 <body>
     <header>
@@ -22,16 +22,16 @@
                     </div>
             </div>
             <div class="nav-search">
-                <select class="search-select">
-                    <option>ALL</option>
-                    <option>GROCERY</option>
-                    <option>VKS GROCERY</option>
-                    <option>DAIRY & BEVERAGES</option>
-                    <option>PACKAGED FOOD</option>
-                    <option>HOME & KITCHEN</option>
-                    <option>PERSONAL CARE</option>
-                    <option>BEAUTY & COSMETICS</option>
-                    <option>SCHOOL SUPPLIES</option>
+                <select id="search-select">
+                    <option value="index.html">ALL</option>
+                    <option value="grocrey.html">GROCERY</option>
+                    <option value="vks_grocery.html">VKS GROCERY</option>
+                    <option value="beverages.html">BEVERAGES</option>
+                    <option value="packaged_food.html">PACKAGED FOOD</option>
+                    <option value="homeandkitchen.html">HOME & KITCHEN</option>
+                    <option value="personal_care.html">PERSONAL CARE</option>
+                    <option value="beautyandcosmetics.html">BEAUTY & COSMETICS</option>
+                    <option value="school_supplies.html">SCHOOL SUPPLIES</option>
                 </select>
                 <input placeholder="APKO KYA CHAHIYE" class="search-input">
                 <div class="search-icon">
@@ -52,36 +52,91 @@
                 Cart
             </div>
         </div>
+        <!-- <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <p>Today's Deals</p>
+                <p>Customer service</p>
+                <p>Registry</p>
+                <p>Gift cards</p>
+                <p>Sell</p>
+            </div>
+            <div class="panel-deals">
+                Shop deals in Electronics
+            </div>
+        </div> -->
     </header>
-
-    <div class="split">
-        <div class="split-left">
-            <div class="centered">
-                <ul>
-                    <p>GROCERY</p>
-                    <a>Dal</a>
-                    <a>Pulses</a>
-                    <a>Dry Fruits</a>
-                </ul>
-                <ul>
-                    <p>BEAUTY AND COSMETICS</p>
-                    <a>Skin</a>
-                    <a>Face</a>
-                    <a>Nail</a>
-                </ul>
-                <ul>
+    <div class="hero-section">
+        <div class="hero-message">
+            <!-- <p>You are on amazon.com.You can also shop on Amazon India for millions if product for fast delivery. <a href="">Click here to amazon.in</a> </p> -->
+        </div>
+    </div>
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>GROCERY</h2>
+                <div class="box-img" style="background-image: url('GROCEREY.jpeg');"></div>
+                <a href="C:\Users\HOME\Desktop\Javascript\PROJECT\grocery.html">SEE MORE</a>
             </div>
         </div>
-    
-        <div class="split-right">
-            <div class="centered">
-                <p>SOME RIGHT TEXT</p>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>VKS GROCERY</h2>
+                <div class="box-img" style="background-image: url('VKS_GRCERY.jpg');"></div>
+                <a href="C:\Users\HOME\Desktop\Javascript\PROJECT\vks_grocery.html">SEE MORE</a>
+
+
+            </div>
+
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>BEVERAGES</h2>
+                <div class="box-img" style="background-image: url('box5.jpg');"></div>
+                <a href="C:\Users\HOME\Desktop\Javascript\PROJECT\beverages.html">SEE MORE</a>
+
+
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>PACKAGED FOOD</h2>
+                <div class="box-img" style="background-image: url('PANEL3.jpg');"></div>
+                <a href="C:\Users\HOME\Desktop\Javascript\PROJECT\packaged_food.html">SEE MORE</a>
+            </div>
+        </div>
+        <div class="box5 box">
+            <div class="box-content">
+                <h2>HOME & KITCHEN</h2>
+                <div class="box-img" style="background-image: url('PANEL2.png');"></div>
+                <a href="C:\Users\HOME\Desktop\Javascript\PROJECT\homeandkitchen.html">SEE MORE</a>
+            </div>
+        </div>
+        <div class="box6 box">
+            <div class="box-content">
+                <h2>PERSONAL CARE</h2>
+                <div class="box-img" style="background-image: url('PERSONAL_CARE.jpg');"></div>
+                <a href="C:\Users\HOME\Desktop\Javascript\PROJECT\personal_care.html">SEE MORE</a>
+            </div>
+        </div>
+        <div class="box7 box">
+            <div class="box-content">
+                <h2>BEAUTY & COSMETICS</h2>
+                <div class="box-img" style="background-image: url('box4.jpg');"></div>
+                <a href="C:\Users\HOME\Desktop\Javascript\PROJECT\beautyandcosmetics.html">SEE MORE</a>
+            </div>
+        </div>
+        <div class="box8 box">
+            <div class="box-content">
+                <h2>SCHOOL SUPPLIES</h2>
+                <div class="box-img" style="background-image: url('SCHOOL_SUPPLIES.jpg');"></div>
+                <a href="C:\Users\HOME\Desktop\Javascript\PROJECT\school_supplies.html">SEE MORE</a>
             </div>
         </div>
     </div>
-
-
-
     <footer>
         <div class="foot-panel1">
             Back To Top
@@ -129,6 +184,6 @@
             </div>
         </div>
     </footer>
-    
+    <script src="app.js"></script>
 </body>
 </html>
