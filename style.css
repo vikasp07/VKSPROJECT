@@ -253,3 +253,27 @@ ul a{
 .copyright {
     padding-top: 5px;
 }
+
+
+#sideToolbar{
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: aqua;
+    padding-top: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+#toggleButton{
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
