@@ -37,3 +37,16 @@ option.addEventListener('change',function() {
 });
 
 
+
+function toogleToolbar(){
+    var toolbar=document.getElementById("sideToolbar");
+    if(toolbar.style.left=="0px"){
+        toolbar.style.left="-250px";
+    }else{
+        toolbar.style.left="0px";
+    }
+}
+
+
+
+
