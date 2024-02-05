@@ -35,6 +35,77 @@
     border: 1.5px solid white;
 }
 
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0f1111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: white;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #0f1111;
+    color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .openbtn:hover {
+    background-color: #0f1111;
+    border-color: white;
+  }
+  
+
+/* 
+#sidebar{
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: aqua;
+    padding-top: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+#toggleButton{
+    top: 20px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+} */
+
 /** box2 **/
 .add-first{
     color:#cccccc;
@@ -254,26 +325,28 @@ ul a{
     padding-top: 5px;
 }
 
-
-#sideToolbar{
-    position: fixed;
-    top: 0;
-    left: -250px;
-    width: 250px;
-    height: 100%;
-    background-color: aqua;
-    padding-top: 20px;
-    color: white;
-    transition: 0.5s;
+#slide-container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: centre;
 }
 
-#toggleButton{
-    position: fixed;
-    left: 20px;
-    top: 20px;
-    background-color: aqua;
-    color: white;
-    border: none;
-    padding: 10px;
+#slider{
+    width: 100%;
+    height: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #d3d3d3;
+    outline: none;
+    border-radius: 10px;
+}
+
+#slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4caf50;
+    border-radius: 50%;
     cursor: pointer;
 }
