@@ -6,7 +6,7 @@
 
 .navbar {
     height:60px;
-    background-color: #0f1111;
+    background-color: #00b8ff;
     color: white;
     display:flex;
     align-items: center;
@@ -20,7 +20,7 @@
 }
 
 .logo {
-    background-image: url("amazon.png");
+    background-image: url("vks5.png");
     background-size: cover;
     height:50px;
     width: 100px;
@@ -28,11 +28,11 @@
 }
 
 .border{
-    border:1.5px solid transparent;
+    border: 1.5px solid #00b8ff;
 }
 
 .border:hover {
-    border: 1.5px solid white;
+    border: 1.5px solid #009bd6;
 }
 
 .sidebar {
@@ -42,7 +42,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #0f1111;
+    background-color: #009bd6;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -64,22 +64,21 @@
   .sidebar .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+    font-size: 1.6rem;
+    margin-right: 1rem;
   }
   
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #0f1111;
+    background-color: #00b8ff;
     color: white;
     border: none;
     border-radius: 10px;
   }
   
   .openbtn:hover {
-    background-color: #0f1111;
+    background-color: #00b8ff;
     border-color: white;
   }
   
@@ -154,7 +153,7 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    background-color:#febd68;
+    background-color:#00415a;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
@@ -181,20 +180,28 @@ span{
 /* panel */
 .panel{
     height: 40px;
-    background-color: #222f3d;
+    background-color: #00719c;
     display: flex;
     color: white;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.panel-ops p {
+.panel-ops a {
     display: inline;
+    color: white;
     margin-left: 15px;
+    text-decoration: none;
+}
+.panel-ops a:hover{
+    border: 1.5px solid white;
+    
 }
 
 .panel-ops {
-    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
     font-size: 0.85rem;
 }
 .panel-deals {
@@ -205,18 +212,23 @@ span{
 /* herosection */
 .hero-section{
     background-color: rgb(239, 250, 250);
-    background-image:url("PANEL1.jpg");
     background-size: cover;
-    height: 300px;
     display:flex;
     justify-content: center;
     align-items: flex-end;
 }
+
+
+.hero-section img{
+    width: 100%;
+    height: 100%;
+}
+
+
 .hero-msg{
     background-color: rgb(253, 245, 245);
-
     color: black;
-    height: 40px;
+    height: 400px;
     display: flex;
     align-items: centre;
     justify-content: centre;
@@ -224,6 +236,7 @@ span{
     width: 80%;
     margin-bottom: 25px;
 }
+
 .hero-msg a{
     color: #007185;
 }
@@ -272,7 +285,7 @@ span{
     font-size: 0.85rem;
 }
 .foot-panel2{
-    background-color: #222f3d;
+    background-color: #00719c;
     color: white;
     height: 300px;
     display: flex;
@@ -290,7 +303,7 @@ ul a{
 }
 
 .foot-panel3{
-    background-color: #222f3d;
+    background-color: #00719c;
     color: white;
     border-top: 0.5px solid transparent;
     height: 300px;
@@ -302,7 +315,7 @@ ul a{
 }
 
 .logo{
-    background-image: url("amazon.png");
+    background-image: url("vksss5.png");
     background-size: cover;
     height:50px;
     width: 100px;
@@ -310,7 +323,7 @@ ul a{
 }
 
 .foot-panel4{
-    background-color: #222f3d;
+    background-color: #00719c;
     color: white;
     height: 80px;
     font-size: 0.7rem;
@@ -326,13 +339,13 @@ ul a{
 }
 
 #slide-container {
-    width: 300px;
+    width: 150px;
     margin: 50px auto;
     text-align: centre;
 }
 
 #slider{
-    width: 100%;
+    width: 100px;
     height: 20px;
     -webkit-appearance: none;
     appearance: none;
@@ -349,4 +362,15 @@ ul a{
     background: #4caf50;
     border-radius: 50%;
     cursor: pointer;
+}
+
+
+#imageConatiner{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#displayedImage{
+    width: 100%;
+    height: 100%;
 }
