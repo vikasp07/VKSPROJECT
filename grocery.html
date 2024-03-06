@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="stylein.css">
     <title>pulses</title>
-
 </head>
 <body>
     <header>
         <div class="navbar">
             <div id="mySidebar" class="sidebar">
                 <a class="closebtn">X</a>
+                <a class="border" href="index.html">ALL</a>
                 <a class="border" href="grocery.html">GROCERY</a>
                 <a class="border" href="vks_grocery.html">VKS GROCERY</a>
                 <a class="border" href="beverages.html">BEVERAGES</a>
@@ -24,7 +24,7 @@
             </div>
         
             <div id="main">
-                <button type="button" class="openbtn border">☰ </button>
+                <button type="button" class="openbtn border"> ☰ </button>
             </div>
             <div class="navlogo border">
                 <div class="logo"></div>
@@ -39,8 +39,8 @@
             </div>
             <div class="nav-search">
                 <select id="search-select">
-                    <option value="index.html">ALL</option>
                     <option value="grocrey.html">GROCERY</option>
+                    <option value="index.html">ALL</option>
                     <option value="vks_grocery.html">VKS GROCERY</option>
                     <option value="beverages.html">BEVERAGES</option>
                     <option value="packaged_food.html">PACKAGED FOOD</option>
@@ -69,11 +69,19 @@
             </div>
         </div>
     </header>
-    <div class="item_info">
-
+    
+    <div class="hero-section">
+        <div class="hero-message">
+        </div>
     </div>
 
-
+    <main>
+        <div class="container">
+            <div id="products">
+                <!-- Product Cards will be dynamically added here using JavaScript -->
+            </div>
+        </div>
+    </main>
     <footer>
         <div class="foot-panel1">
             Back To Top
@@ -122,5 +130,7 @@
         </div>
     </footer>
     <script src="app.js"> </script>
+    <script src="item.js"> </script>
+    
 </body>
 </html>
